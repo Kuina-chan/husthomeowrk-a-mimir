@@ -1,20 +1,15 @@
 #include <stdio.h>
 int main() {
-	int x, sum = 0;
-	printf("x input: ");
-	scanf("%d", &x);
+	double x, sum = 0;
+	scanf("%lf", &x);
 	sum+=x;
-	printf("x input: ");
-	scanf("%d", &x);
+	scanf("%lf", &x);
 	sum+=x;
-	printf("x input: ");
-	scanf("%d", &x);
+	scanf("%lf", &x);
 	sum+=x;
-	printf("x input: ");
-	scanf("%d", &x);
+	scanf("%lf", &x);
 	sum+=x;
-	printf("x input: ");
-	scanf("%d", &x);
+	scanf("%lf", &x);
 	sum+=x;
-	printf("Average: %d\n", sum/5);
+	printf("%lf\n", sum/5);
 };
